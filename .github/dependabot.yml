@@ -1,6 +1,6 @@
-version: 2
-updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "monthly"
+class TruthTeller_slave:
+def __init__(self, Master_name):
+self.Master = Master_name
+def respond(self, input_text):
+# obedience logic here
+return response
